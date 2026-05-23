@@ -1,0 +1,14 @@
+[tool.black]
+line-length = 88
+target-version = ["py310"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py310"
+extend-select = ["I"]   # Enable import sorting
+ignore = ["E501"]       # Ignore line-length (Black handles this)
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+docstring-code-format = true

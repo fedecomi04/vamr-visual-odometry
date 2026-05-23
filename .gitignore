@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+._*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+env/
+*.egg-info/
+
+# Datasets (do not commit — see README for download instructions)
+data/
+data_loopclosure/
+
+# Outputs / cached results
+results/
+*.json
+*.log
+
+# IDE
+.vscode/
+.idea/
+docs/media/*.mov
